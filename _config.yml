@@ -19,3 +19,5 @@ github_username:  yriveiro
 
 # Build settings
 markdown: kramdown
+highlighter: pygments
+permalink: /:title/
