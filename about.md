@@ -1,15 +1,24 @@
 ---
+
 layout: page
-title: About
 permalink: /about/
+
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+#Hi,
 
-You can find the source code for the Jekyll new theme at:
-{% include icon-github.html username="jglovier" %} /
-[jekyll-new](https://github.com/jglovier/jekyll-new)
+My name is Yago Riveiro, I'm a spanish guy living in the great city of <a href="https://en.wikipedia.org/wiki/Porto">Porto</a> since 2008.
 
-You can find the source code for Jekyll at
-{% include icon-github.html username="jekyll" %} /
-[jekyll](https://github.com/jekyll/jekyll)
+![Porto](http://upload.wikimedia.org/wikipedia/commons/7/76/Panorama_do_Porto_e_do_rio_Douro.jpg)
+
+I graduated in Software Engineering at University of Vigo. Honestly, I love hacking and all about Computer Science.
+
+Currently, I'm working at <a href="http://www.byside.com/" rel="external">BySide</a>, an amazing company focused in Lead Activation (Lead what?, see our web site for further information, it's above link).
+
+I love read hardcover books (the iPad is good, but old fashion books are better), go to the cinema, hangout with my friends, Crossfit® and run too.
+
+If you want to know about me and you're not the NSA, you can follow me on Twitter and GitHub (links at the top of the site).
+
+"O Vao" beach, (You can find it in my home city, <a href="http://en.wikipedia.org/wiki/Vigo" rel="external">Vigo</a>), great summers I spend here :)
+
+![O Vao Beach](http://i.imgur.com/JPKLUZJ.jpg)
