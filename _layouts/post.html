@@ -6,15 +6,35 @@ layout: default
 
     <header class="post-header">
         <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
-        <p class="post-meta">
-            <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>{% if page.author %} •
-            <span itemprop="author" itemscope itemtype="http://schema.org/Person">
-                <span itemprop="name">{{ page.author }}</span>
-            </span>{% endif %}</p>
+        <div class="post-meta-data">
+            <i class="icon-datetime"></i>
+            <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>
+        </div>
     </header>
 
     <div class="post-content" itemprop="articleBody">
         {{ content }}
     </div>
-
+    <footer class="post-footer">
+        <div class="post-navigation">
+            <a class="button button-go-to-top" href="{{ site.url }}">Home</a> |
+            <a class="button button-go-to-top arctic_scroll" href="#header">Back to top</a>
+        </div>
+        <div class="post-footer-author-avatar">
+            <figure class="author-avatar author-avatar-small">
+                <a href="{{ site.url }}">
+                    <div class="avatar-image avatar-image-small" style="background-image: url({{ site.data.author.image }})"></div>
+                </a>
+            </figure>
+        </div>
+        <div class="post-share">
+            <menu class="post-share-options">
+                <span>If you like it, share</span>
+                <a href="https://twitter.com/share?text={{ page.title }}&amp;url={{ page.url | prepend: site.url }}"
+                class="icon-twitter" rel="external" title="Share it with Twitter"
+                onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+                </a>
+            </menu>
+        </div>
+    </footer>
 </article>
