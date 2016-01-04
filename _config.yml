@@ -10,11 +10,9 @@ title: Yago Riveiro's Blog
 email: yago.riveiro@gmail.com
 description: This is the Yago Rivero's personal site.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://yriveiro.github.io/" # the base hostname & protocol for your site
-twitter_username: yriveiro
-github_username:  yriveiro
+url: "http://yriveiro.github.io" # the base hostname & protocol for your site
 
 # Build settings
-markdown: kramdown
+markdown: redcarpet
 highlighter: pygments
 permalink: /:title/
