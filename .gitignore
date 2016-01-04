@@ -1,5 +1,6 @@
 _drafts/
 _site
+sass
 .sass-cache
 .DS_Store
 *.swp
