@@ -1,0 +1,15 @@
+<menu class="post-meta">
+    <div class="post-meta-data">
+        <i class="icon-datetime"></i>
+        <time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%b %-d, %Y" }}</time>
+    </div>
+
+    {% if post.tags.size > 0 %}
+    <div class="post-meta-data">
+        <i class="icon-tags"></i>
+        {% for tag in post.tags %}
+        <a href="" ></a>
+        {% endfor %}
+    </div>
+    {% endif %}
+</menu>

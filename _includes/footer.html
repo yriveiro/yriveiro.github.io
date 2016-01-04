@@ -1,44 +1,9 @@
-<footer class="site-footer">
+<footer class="simple-footer">- Copyright © {{ site.time | date: '%Y' }} Yago Riveiro -</footer>
 
-  <div class="wrapper">
-
-    <h2 class="footer-heading">{{ site.title }}</h2>
-
-    <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-1">
-        <ul class="contact-list">
-          <li>{{ site.title }}</li>
-          <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-        </ul>
-      </div>
-
-      <div class="footer-col footer-col-2">
-        <ul class="social-media-list">
-          {% if site.github_username %}
-          <li>
-            {% include icon-github.html username=site.github_username %}
-          </li>
-          {% endif %}
-
-          {% if site.twitter_username %}
-          <li>
-            {% include icon-twitter.html username=site.twitter_username %}
-          </li>
-          {% endif %}
-        </ul>
-      </div>
-
-      <div class="footer-col footer-col-3">
-        <p>{{ site.description }}</p>
-      </div>
-    </div>
-
-  </div>
-
-  <!-- JavaScript -->
-  <script src="//cdnjs.cloudflare.com/ajax/libs/modernizr/{{ site.data.versions.modernizr }}/modernizr.min.js"></script>
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/{{ site.data.versions.jquery }}/jquery.min.js"></script>
-  <script src="//maxcdn.bootstrapcdn.com/bootstrap/{{ site.data.versions.bootstrap }}/js/bootstrap.min.js"></script>
-
-  {% include analytics.html %}
-</footer>
+<!-- JavaScript -->
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/modernizr/{{ site.data.versions.modernizr }}/modernizr.min.js"></script>
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/{{ site.data.versions.jquery }}/jquery.min.js"></script>
+<script type="text/javascript" src="//maxcdn.bootstrapcdn.com/bootstrap/{{ site.data.versions.bootstrap }}/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/fitvids/{{ site.data.versions.fitvids }}/jquery.fitvids.min.js"></script>
+<script type="text/javascript" src="{{ "/js/script.js" | prepend: site.url }}"></script>
+{% include analytics.html %}
