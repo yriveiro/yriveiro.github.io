@@ -1,2 +1,2 @@
-# yriveiro.github.io
+# riveiro.io
 Personal page
