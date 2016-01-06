@@ -52,8 +52,6 @@ body {
 }
 
 .post-meta-data {
-  padding-bottom: 1.25em;
-
   @extend .pull-left;
 
   [class*="icon-"] {
@@ -68,7 +66,7 @@ body {
     @extend .pull-right
   }
   &:only-of-type {
-    padding: 0;
+    padding-bottom: 1.25em;
     float: left !important
   }
 }
