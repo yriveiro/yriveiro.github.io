@@ -1,1 +1,76 @@
 
+==================================================================
+https://keybase.io/yriveiro
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://riveiro.io
+  * I am yriveiro (https://keybase.io/yriveiro) on keybase.
+  * I have a public key with fingerprint BAFA 8B70 AD82 6224 17B5  F841 3458 86DC BFFF 34A6
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01207067c59e62b8d1ba856c5f2e610d454cb0c0d907416af05d75f213a49946c44f0a",
+      "fingerprint": "bafa8b70ad82622417b5f841345886dcbfff34a6",
+      "host": "keybase.io",
+      "key_id": "345886dcbfff34a6",
+      "kid": "0101105062d310e9a09230cc70bf9603547de3938111a2a4e04d996ea38051b61d0d0a",
+      "uid": "725ea31110f91b531dd2669875c72c19",
+      "username": "yriveiro"
+    },
+    "service": {
+      "hostname": "riveiro.io",
+      "protocol": "http:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1503761838,
+  "expire_in": 157680000,
+  "prev": "6016028a3e44c2c844a22a1bc01e072e30b5994aebfa72d76a3838a4329e1462",
+  "seqno": 17,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.73
+Comment: https://keybase.io/crypto
+
+yMNrAnicbZJ7UFRVHMd3FxVapUSRYqhZu0APYfKc+77rEGpmPmCmMh8gA55777lw
+eeyudxfalUCYAQalEHG2waEJmZgIjHDGZjRfPCZ5yOArCxggGSJwUoK0hhoQu0v4
+X+efM+f3+/y+5/v7nfN9oJ/BbKT3lQy1PKG/NPa0ebMNCbXeb3IJ0S57CGsukYEX
+NpwpY6crJUOVCSsBIAk4wHISI2CWFHkZiohnWIlRSMxCINMMLYlAArIAOBqySAGM
+zOlJSCFaEGhWomkFICKaUFRbKtYcmmpz6bIiUhAvcgDJPMmSJA05kVF4GlI0w/Os
+LImKolA0YvXCNLvTV6GbE5ETv6Ha9Zh+SFmw9z/8U98AQsAAlpQpCLCAgEBSQJI4
+ICoCCyiG5mRMCRQPIUQkojGgZUFgMaJ4wECRhTKQF3xnL8hxJKOndBYoAhQZCsoy
+ybICzzESR0pQ8IFOrNlQFtZpj6bmYFWzE3nRhB7NUSXsG6yvk0ViEfivG4dmd9kl
+e6YeT3O5HFZfmcvj8HEfYjFlUSFFVG2yPkS9IAdrTtVuI6xQJyWX6pOEDKA4FvIU
+H01gt0PVcIrqIxiO5YG+fNfgHF2SBZAFJI8oTNMSKfE0jUgSQVECEAOOxBQQGf3l
+EBYVxJEyx+ojoXhEU6SAIc2ShK+ngza7rs3pPlGqrulUU23Ila1hIq+9LWmJwWg2
+LFtq8v0ug/mZlU//XGjpc/OvrF9lYX5x34/Sdq4ejyuOaQ7u97vxMhvvH5gZ2Gqr
+bkrb0Z/W6I2rrxD61hwdrydNNTHZkbuCYt2XE+/8GjldHuRp3ziS9kN/wsGKyZwE
+pvuAYXeoIWZ9cfpNa+em9rqPswpbn0z2zhqnhb0ZHw3/3bxcqLiw9ZNDVFPtg6Kw
+h4y7Sr6umc0nVvzRtdbktcw1nCu8f/Zx+GBCv7/HclrZMSGf37Wz8tRYLbr2Va9r
+vmym869hMx0bvO7WA3dblX98Y+O9kN4m89ThnqCk3lBz+sToe8cHmlZO1UW5V2kQ
+xo3XRlyeXDcT4P28OLgyVUp5yCaEvBornZTzq5oly+1rZ9+tj9wYH/Lm5qBbAyNh
+y5XNezq7DM+emCs4tafo9v6hA89b5LtHjvzZOPOB9uOyLdqM8Z2O11vuTDz+rrrk
+iyRz++qSgOQx8dNyiLDns+rBkFDv2PDuWfeWqKwrsxd6344oBV48Nleen1V/tWxr
+/sWago5oU0SlcdtYl/2SKT3g95+Pb/p2yYqyk3mWxMH6Ry/kutRwS1ewo+itgu1r
+3vfuT3fVORPPhHf3Nc1z5w5twLEXR1v6Kr2PTK0l+7Yl99junb9e3FDTHPjba/6j
+//BKWZbfT6GJxyLOTFmPFW+3OeXKu91LL20oHWofaQjrGEievllQeNX40o368Fp0
+5esXT6/t3nv4XzB8vKU=
+=f3aj
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/yriveiro
+
+==================================================================
