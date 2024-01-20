@@ -1,2 +1,0 @@
-# riveiro.io
-Personal page

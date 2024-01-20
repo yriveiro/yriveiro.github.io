@@ -1,0 +1,130 @@
+baseURL: 'https://riveiro.io/'
+languageCode: 'en-us'
+title: "Yago Rivero"
+author: "Yago Riveiro"
+paginate: 3
+DefaultContentLanguage: "en"
+enableInlineShortcodes: true
+module:
+  imports:
+    - path: github.com/adityatelange/hugo-PaperMod
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+minify:
+  disableXML: true
+  minifyOutput: true
+params:
+  env: production # to enable google analytics, opengraph, twitter-cards and schema.
+  title: Yago Riveiro
+  description: "Engineer that love Whys, Welcome to my website!"
+  keywords: [Blog, Yago, Riveiro, PaperMod]
+  author: Yago Riveiro
+  DateFormat: "2 January 2006"
+  defaultTheme: dark # dark, light
+  disableThemeToggle: false
+  ShowReadingTime: true
+  ShowShareButtons: false
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowWordCount: true
+  ShowRssButtonInSectionTermList: true
+  UseHugoToc: true
+  disableSpecial1stPost: false
+  disableScrollToTop: false
+  comments: false
+  hidemeta: false
+  hideSummary: false
+  ShowToc: false
+  TocOpen: false
+  assets:
+    # disableHLJS: true # to disable highlight.js
+    disableFingerprinting: true
+    favicon: "<link / abs url>"
+    favicon16x16: "<link / abs url>"
+    favicon32x32: "<link / abs url>"
+    apple_touch_icon: "<link / abs url>"
+    safari_pinned_tab: "<link / abs url>"
+  label:
+    text: "But ... Why? 🤔"
+    icon: /apple-touch-icon.png
+    iconHeight: 35
+  # home-info mode
+  homeInfoParams:
+    Title: "Hi there 👋"
+    Content: >
+      Welcome to my blog, My name is Yago!
+
+      * 💭 - I write to answer the different **'Whys?'** that continuously arise from my thoughts.
+
+      * 🐇 - This site has **zero** tracking on it, I do it for fun, not to build a sect of followers.
+
+      * 🛎️ - **Spoiler Alert:** Opinions are my own!
+
+  socialIcons:
+    - name: linkedin
+      url: "https://www.linkedin.com/in/yriveiro/"
+    - name: x
+      url: "https://twitter.com/yriveiro"
+    - name: github
+      url: "https://github.com/yriveiro"
+  cover:
+    hidden: false # hide everywhere but not in structured data
+    hiddenInList: true # hide on list pages and home
+    hiddenInSingle: false # hide on single page
+    responsiveImages: true
+  editPost:
+    URL: "https://github.com/yriveiro/yriveiro.github.io/content"
+    Text: "Suggest Changes" # edit text
+    appendFilePath: true # to append file path to Edit link
+  # for search
+  # https://fusejs.io/api/options.html
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    keys: ["title", "permalink", "summary", "content"]
+  mainSections:
+    - posts
+    - books
+menu:
+  main:
+    - identifier: about
+      name: About
+      url: /about/
+      weight: 5
+    - identifier: projects
+      name: Projects
+      url: /projects/
+      weight: 10
+    - identifier: books
+      name: Books
+      url: /books/
+      weight: 20
+    - identifier: categories
+      name: Categories
+      url: /categories/
+      weight: 30
+    - identifier: search
+      name: Search
+      url: /search/
+      weight: 40
+pygmentsUseClasses: true
+markup:
+  highlight:
+    noClasses: false
+    anchorLineNos: true
+    codeFences: true
+    guessSyntax: true
+    lineNos: true
+    style: monokai
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON # is necessary
