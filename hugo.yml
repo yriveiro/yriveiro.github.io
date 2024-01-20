@@ -76,7 +76,7 @@ params:
     hiddenInSingle: false # hide on single page
     responsiveImages: true
   editPost:
-    URL: "https://github.com/yriveiro/yriveiro.github.io/content"
+    URL: "https://github.com/yriveiro/yriveiro.github.io/tree/main/content/posts"
     Text: "Suggest Changes" # edit text
     appendFilePath: true # to append file path to Edit link
   # for search
