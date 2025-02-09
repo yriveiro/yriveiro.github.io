@@ -2,7 +2,8 @@ baseURL: 'https://riveiro.io/'
 languageCode: 'en-us'
 title: "Yago Rivero"
 author: "Yago Riveiro"
-paginate: 3
+pagination:
+  pagerSize: 3
 DefaultContentLanguage: "en"
 enableInlineShortcodes: true
 module:
