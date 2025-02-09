@@ -64,6 +64,7 @@ params:
 
       * 🛎️ - **Spoiler Alert:** Opinions are my own!
 
+  social: false
   socialIcons:
     - name: linkedin
       url: "https://www.linkedin.com/in/yriveiro/"
