@@ -13,6 +13,7 @@ source contributions, please see my profile on [GitHub](https://github.com/yrive
 
 <!-- markdownlint-disable MD013 -->
 - [wezterm-status](https://github.com/yriveiro/wezterm-status) - WezTerm plugin to customize the status bar.
+- [wezterm-tabs](https://github.com/yriveiro/wezterm-tabs) - WezTerm plugin to customize the tabs.
 - [dap-go](https://github.com/yriveiro/dap-go.nvim) - nvim-dap extension to make simpler debug Golang using Delve.
 - [giu](https://github.com/yriveiro/giu) - Command-line tool to keep your dynamic IP up to date.
 - [php-fslock](https://github.com/yriveiro/php-fslock) - A simple lock implementation using flock.
