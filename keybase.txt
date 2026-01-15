@@ -5,7 +5,7 @@ https://keybase.io/yriveiro
 
 I hereby claim:
 
-  * I am an admin of http://riveiro.io
+  * I am an admin of http://yriveiro.xyz
   * I am yriveiro (https://keybase.io/yriveiro) on keybase.
   * I have a public key with fingerprint BAFA 8B70 AD82 6224 17B5  F841 3458 86DC BFFF 34A6
 
@@ -23,7 +23,7 @@ To do so, I am signing this object:
       "username": "yriveiro"
     },
     "service": {
-      "hostname": "riveiro.io",
+      "hostname": "yriveiro.xyz",
       "protocol": "http:"
     },
     "type": "web_service_binding",
