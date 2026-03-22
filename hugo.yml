@@ -6,6 +6,8 @@ pagination:
   pagerSize: 3
 DefaultContentLanguage: "en"
 enableInlineShortcodes: true
+ignoreLogs:
+  - warning-goldmark-raw-html
 module:
   imports:
     - path: github.com/adityatelange/hugo-PaperMod
